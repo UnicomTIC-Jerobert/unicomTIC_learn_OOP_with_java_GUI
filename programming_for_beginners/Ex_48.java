@@ -22,15 +22,20 @@ public class Ex_48 {
             System.out.print(array[i] + " ");
         }
 
+        // Add Elements to an ArrayList
+        System.out.println();
         ArrayList<Integer> myList = new ArrayList<>();
         myList.add(1);
         myList.add(2);
         myList.add(3);
-        System.out.println("list content is " + myList);
+        System.out.println("list content is : " + myList);
 
+        // Access ArrayList Elements
         for (int i : myList) {
             System.out.print(i + "");
         }
+
+        // Remove ArrayList Elements
         System.out.println();
         myList.remove(1);
         System.out.println("list content is " + myList);

@@ -36,9 +36,11 @@ public class Ex_54 {
         ad.addLast(5);
 
         System.out.println("array deque content : " + ad);
+        System.out.println("First element : " + ad.getFirst());
         System.out.println("last element : " + ad.getLast());
 
         System.out.println("remove first element : " + ad.pollFirst());
+        System.out.println("remove last element : " + ad.pollLast());
         System.out.println("array deque content : " + ad);
     }
 }

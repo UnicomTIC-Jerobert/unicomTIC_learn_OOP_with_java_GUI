@@ -32,10 +32,12 @@ public class Ex_49 {
         stack1.push(3);
         stack1.push(4);
         System.out.println("stack content is " + stack1);
+
         stack1.pop();
         System.out.println("stack content is " + stack1);
         stack1.pop();
         System.out.println("stack content is " + stack1);
+        
         System.out.println("element at top is " + stack1.peek());
     }
 }

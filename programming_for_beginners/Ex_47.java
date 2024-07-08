@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Ex_47
@@ -28,20 +26,38 @@ import java.util.List;
  * removeA11() - removes all the elements from the list
  * 
  */
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class Ex_47 {
 
     public static void main(String[] args) {
         List<String> myList = new ArrayList<>();
+
+        // add method
         myList.add("programming");
         myList.add("for");
         myList.add("beginners");
         myList.add(2, "YouTube");
+
         System.out.println("list content is " + myList);
+
+        // get value by List index
+        System.out.println("2nd element of list is : " + myList.get(1));
+
+        // remove element from list
+        myList.remove(2);
+        System.out.println("list content is " + myList);
+
+        // addAll method
         List<String> myList1 = new ArrayList<>();
+        myList1.add("Java");
         myList1.addAll(myList);
         System.out.println("list1 content is " + myList1);
 
-        myList.remove(2);
-        System.out.println("list content is " + myList);
+        // removeAll method
+        myList1.removeAll(myList1);
+        System.out.println("list1 content is " + myList1);
     }
 }

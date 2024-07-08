@@ -1,6 +1,6 @@
 /*
  * #52 - Java Deque Interface with Examples
-The Deque interface of the Java collections framewor
+The Deque interface of the Java collections framework
 provides the functionality of a double-ended queue.
 It extends the Queue interface.
 
@@ -10,6 +10,22 @@ both front and rear.
 Classes that implement Deque
 In order to use the functionalities of the Deque
 interface, we need to use classes that implement it:
+- ArrayDeque
+- LinkedList
+
+Methods :
+addFirst()
+addLast()
+offerFirst()
+offerLast()
+getFirst()
+getLast()
+peekFirst()
+peekLast()
+removeFirst()
+removeLast()
+pollFirst()
+pollLast()
  */
 
 import java.util.ArrayDeque;
