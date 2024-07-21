@@ -7,7 +7,7 @@
 /= (Divide and Assignment)
  */
 
-public class Ex7_AssigmentOperators {
+public class Ex_07_AssigmentOperators {
     public static void main(String[] args) {
         int number = 10;
         

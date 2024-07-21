@@ -5,7 +5,7 @@
 - NOT ! (A > 10) is True
  */
 
-public class Ex8_LogicalOperators {
+public class Ex_08_LogicalOperators {
     public static void main(String[] args) {
         int num1 = 10;
         int num2 = 20;

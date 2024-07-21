@@ -14,6 +14,6 @@ All the character stream classes are derived from base
 abstract classes Reader and Writer.
  */
 
-public class Ex74 {
+public class Ex_74 {
     
 }

@@ -22,7 +22,7 @@ default:
 }
  */
 
-public class Ex13_SwitchCase {
+public class Ex_13_SwitchCase {
     public static void main(String[] args) {
         int i = 1;
 

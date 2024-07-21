@@ -6,7 +6,7 @@ Following are the types of variables in Java -
 3. Instance Variables (Non-static Variables)
 */
 
-public class Ex3_JavaVariablesAndDataTypes {
+public class Ex_03_JavaVariablesAndDataTypes {
     public static void main(String[] args) {
         int number1 = 11;
         System.out.println("the value of number1 is : " + number1);

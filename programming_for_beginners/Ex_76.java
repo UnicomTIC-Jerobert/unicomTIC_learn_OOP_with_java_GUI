@@ -20,7 +20,7 @@ Methods of OutputStream
 - close() - closes the output stream
 
  */
-public class Ex76 {
+public class Ex_76 {
     public static void main(String[] args) {
         try {
             String data = "This is a test line from program.";

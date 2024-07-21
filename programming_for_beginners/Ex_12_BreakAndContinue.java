@@ -5,7 +5,7 @@
 break - breaks the flow of execution in loops
 continue - continues the flow of execution to next iteration
 */
-public class Ex12_BreakAndContinue {
+public class Ex_12_BreakAndContinue {
     public static void main(String[] args) {
         for (int i = 0; i < 10; i++) {
             System.out.print(i + " ");

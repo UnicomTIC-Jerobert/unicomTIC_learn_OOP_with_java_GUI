@@ -9,7 +9,7 @@ execute this
 }
  */
 
-public class Ex5_IfElse {
+public class Ex_05_IfElse {
     public static void main(String[] args) {
         int number = 10;
         if (number < 10) {

@@ -9,7 +9,7 @@
 -- decrement
 */
 
-public class Ex4_ArithmeticOperators {
+public class Ex_04_ArithmeticOperators {
     public static void main(String[] args) {
         int number1 = 15;
         int number2 = 12;

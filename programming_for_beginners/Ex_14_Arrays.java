@@ -12,7 +12,7 @@ String[] array = new String[100];
 int[] age = {12, 4, 5, 2, 5};
 
  */
-public class Ex14_Arrays {
+public class Ex_14_Arrays {
     public static void main(String[] args) {
         int[] arrayOfIntegers = { 1, 2, 3, 4, 5 };
         System.out.println(arrayOfIntegers);

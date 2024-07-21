@@ -20,7 +20,7 @@ in the input stream
 
 import java.io.FileInputStream;
 
-public class Ex75 {
+public class Ex_75 {
     public static void main(String[] args) {
         try {
             InputStream input = new FileInputStream("C:\\Users\\V");

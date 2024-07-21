@@ -2,7 +2,7 @@
  * #10 - For Loop in Java Programming
 for (int i=0;i<5;i++) {}
  */
-public class Ex10_ForLoop {
+public class Ex_10_ForLoop {
     public static void main(String[] args) {
         System.out.println(0);
         System.out.println(1);
