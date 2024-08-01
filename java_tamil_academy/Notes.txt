@@ -1,0 +1,75 @@
+Computer Languages
+. Low Level Languages
+. It is written in binary code or machine code, which
+means it basically comprises of only two digits - 1
+and 0.
+. Assembly Language
+It is a development on the machine language, where
+instead of using only numbers, we use English words,
+names, and symbols.
+. High Level Language
+. When we talk about high level languages, these are
+programming languages. Some prominent examples
+are PASCAL, FORTRAN, C++ etc.
+
+What is Java?
+
+· Java is a popular programming language, created in
+1995.
+. It is owned by Oracle, and more than 3
+billion devices run Java.
+. It is used for:
+. Mobile applications (specially Android apps)
+. Desktop applications
+. Web applications
+· Web servers and application servers
+· Games
+· Database connection And much, much more!
+
+History of Java
+
+. James Gosling and Patrick Naughton initiated
+the Java language project in June 1991. The small
+team of sun engineers called Green Team.
+. Initially it was designed for small, embedded
+systems in electronic appliances like set-top boxes.
+. Firstly, it was called "Greentalk" by James
+Gosling, and the file extension was .gt.
+. After that, it was called Oak and was developed as
+a part of the Green project.
+
+
+
+
+Iteration 1:
+
+number = 1234
+remainder =1234 % 10=4
+reverse=0 * 10+4=0+4=4
+number = 1234/10=123
+Now the value of the number and reverse variable is 123 and 4, respectively.
+
+Iteration 2:
+
+number = 123
+remainder= 123% 10=3
+reverse= 4 * 10+3 = 40 + 3 = 43
+number=123/10=12
+Now the value of the number and reverse variable is 12 and 43, respectively.
+
+Iteration 3:
+
+number = 12
+remainder = 12 % 10 = 2
+reverse= 43 * 10+2= 430 + 2 = 432
+number=12/10=1
+Now the value of the number and reverse variable is 1 and 432, respectively.
+
+Iteration 4:
+
+number = 1
+remainder=1 % 10 = 1
+reverse= 432 * 10+1 = 4320 + 1 = 4321
+number=1/10=0
+Now the variable number become 0. Hence, we get the reverse number 4321 .* /
+
