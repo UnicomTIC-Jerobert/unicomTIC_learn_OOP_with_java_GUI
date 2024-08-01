@@ -1,0 +1,163 @@
+Day-10
+
+Object oritend Programming
+
+class
+object
+polymorphism
+Encapsulation
+Inheritance
+Data Abstraction
+
+class is collection of attributtes and behavior.
+
+Animal -- > Dog, Elephant, horse etc ...
+Student --- >Kim, David, Scott etc ..
+Employee --- > John, smith, mary
+
+Plan/blue print
+
+object is an instance of a class.
+
+class
+
+1) class is collection of variables and methods
+2) class is logical entity/blue print
+3) will not occupy space in the memory.
+
+class Employee
+{
+variables
+methods
+}
+
+object
+
+1) object is an instance of a class/ object will be created by using class.
+2) object is physical entity
+3) occupy space in memory
+4) we can create multiple objects for single class.
+
+Employee emp=new Employee();
+
+s="welcome"
+
+int len=s.lenght()
+
+class --- > varaibles & methods
+
+method --- > varaibles
+
+void display()
+{
+    void print()
+    {
+    }
+}
+
+=======================================================
+Day-11
+
+methods
+
+block or group of statements which will perform certain task.
+we have to call the method though object.
+
+1) No params        No return value
+2) No params        Return value
+3) Takes params     No return value
+4) Takes params     Retuns value
+
+String s=new String("welcome");
+
+int len=s.lenght()      --- no parmas, returns value
+String sub=s.substring(2,5)
+
+How many ways we can store data into varaibles
+
+Method:
+
+1) Method name can be anything
+2) Method may or may not return a value
+3) If method is not returnign any value then specify void
+4) Method can take parameters/arguments
+5) We have to invoke/call methods explicitely through object
+6 used for specifying logic
+
+Constructor
+
+1) Constructor name should be same as class name.
+2) Constructor will never return a value ( not even void)
+3) We dont specify the void
+4) Constructor can take parameters/arguments
+5) Constructor automatically invoked at the time of object creation.
+6) used for initilizina the values of the variables.
+
+Constructors
+
+1) Default constructor
+2) parameerized constructor
+
+================================================================================================
+
+Day-12
+
+Polymorphism
+
+one thing can have many forms.
+
+Shape - circle, square, trainagle, rectangle etc ..
+water -- vapour, ice burge etc ..
+
+we can achive polymorphism using overloading.
+
+void m1()
+void m1()
+void m1()
+
+4 rules are applicable
+
+1) Method names should be same
+2) number of parameters should be different
+3) Data type of parameters should be different
+4) Order of parameters should be different
+
+sum(int x, double y)
+sum(int x, int y)
+sum(double x, int y)
+
+sum(10.5,20)
+
+Encapsulation
+
+wrapping up of data and methods in to single unit(class).
+
+1) All variables should be private
+2) for every variable there should be 2 methods( get & Set)
+3) varaibles can be operated only through methods.
+
+Day-13
+
+this keyword
+
+2 types of varaibles
+
+1) class variables/ instance variables
+2) local variables
+
+static
+
+static keyword can be applied for varaibles & methods.
+
+static variables
+static methods
+
+non-static variables
+non-static methods
+
+1) static methods can access static stuff directly ( without object).
+2) static methods can access non-static stuff through object.
+
+
+
+
